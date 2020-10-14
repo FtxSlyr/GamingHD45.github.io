@@ -49,10 +49,15 @@ body {
 
 #aboutpage {
 	text-align: left;
+	padding:  20px;
 }
 
 #about {
 	padding: 20px;
+}
+
+#about .padd {
+	padding-left: 10px;
 }
 
 #footer {
