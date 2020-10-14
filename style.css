@@ -1,0 +1,41 @@
+body {
+	background-color: burlywood;
+}
+
+#container {
+	Background-color: white;
+	width: 1250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	background-color: #fff000;
+	text-align: center;
+}
+
+#first {
+	background-color: coral;
+	width: 300px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sub-plz {
+	background-color: red;
+	width: 500px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#upper-content {
+	text-align: center;
+}
+
+#footer {
+	background-color: gray;
+	color: white;
+	text-align: center;
+}
