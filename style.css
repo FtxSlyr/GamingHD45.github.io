@@ -79,8 +79,22 @@ body {
 
 #answer {
 	list-style: none;
-    display: flex;
+	display: flex;
+	text-decoration: none;
+	color: rgb(red, green, blue);
 }
+
+#answer li {
+    padding: 0px 20px;
+  }
+  
+#answer li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+#answer li a:hover {
+    color: #1100ff;
+  }
 
 #footer {
 	background-color: gray;
