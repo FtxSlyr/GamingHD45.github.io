@@ -77,10 +77,16 @@ body {
 	padding-left: 10px;
 }
 
+#answer {
+	list-style: none;
+    display: flex;
+}
+
 #footer {
 	background-color: gray;
 	color: white;
 	text-align: center;
+	text-decoration: none;
 }
 
 .logo {
