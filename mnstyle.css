@@ -61,6 +61,15 @@ body {
 	margin-right: auto;
 }
 
+.music {
+    display: none;
+}
+
+.semoga{
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
 #upper-content {
 	text-align: center;
 }
