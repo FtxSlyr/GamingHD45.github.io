@@ -77,25 +77,6 @@ body {
 	padding-left: 10px;
 }
 
-#answer {
-	list-style: none;
-	display: flex;
-	text-decoration: none;
-	color: rgb(red, green, blue);
-}
-
-#answer li {
-    padding: 0px 20px;
-  }
-  
-#answer li a {
-    transition: all 0.3s ease 0s;
-  }
-  
-#answer li a:hover {
-    color: #1100ff;
-  }
-
 #footer {
 	background-color: gray;
 	color: white;
@@ -113,9 +94,7 @@ body {
     display: flex;
   }
   
-  .nav__links a,
-  .cta,
-  .overlay__content a {
+  .nav__links a {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     color: #ff0000;
@@ -133,21 +112,26 @@ body {
   .nav__links li a:hover {
     color: #1100ff;
   }
+
+  .abt a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #ff0000;
+    text-decoration: none;
+  }
   
-  .cta {
-    margin-left: 20px;
-    padding: 9px 25px;
-    background-color: rgba(26, 255, 163);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
+  .abt li {
+    padding: 0px 20px;
+  }
+  
+  .abt li a {
     transition: all 0.3s ease 0s;
   }
   
-  .cta:hover {
-    background-color: rgba(76, 241, 145, 0.8);
+  .abt li a:hover {
+    color: #1100ff;
   }
-  
+
   /* Mobile Nav */
   
   .menu {
