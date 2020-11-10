@@ -67,15 +67,16 @@ body {
 
 #aboutpage {
 	text-align: left;
-	padding:  20px;
+  list-style: none;
 }
 
 #about {
-	padding: 20px;
+  margin-top: 20px;
 }
 
-#about .padd {
-	padding-left: 10px;
+.about {
+  margin-left: 20px;
+  list-style: none;
 }
 
 #footer {
@@ -83,6 +84,10 @@ body {
 	color: white;
 	text-align: center;
 	text-decoration: none;
+}
+
+.btn {
+  color: white;
 }
 
 .logo {

@@ -37,6 +37,10 @@ body {
   .closebtn:hover {
       color: yellow;
   }
+
+  .btn {
+    color: white;
+  }
   
   #navi .selected {
       font-weight: bolder;

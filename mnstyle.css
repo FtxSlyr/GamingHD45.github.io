@@ -21,6 +21,10 @@ body {
 	font-size: x-large;
 }
 
+.btn {
+  color: white;
+}
+
 .closebtn {
     margin-left: 20px;
     color: black;
