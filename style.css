@@ -1,36 +1,48 @@
-body {
-  background-color: burlywood;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-#container {
-	Background-color: white;
-	width: 1250px;
-	margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+body {
+  background-color: rgb(15, 0, 71);
 }
 
 #header {
 	background-color: #fff000;
-	text-align: center;
+  text-align: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.head {
+  float: left;
+  margin-left: none;
+  margin-right: auto;
 }
 
 .alert {
-	padding: 20px;
-	background-color: burlywood;
+	padding: 30px;
+	background-color: rgb(199, 48, 48);
 	text-align: center;
 	height: 30px;
-	text-shadow: yellow;
-	font-size: x-large;
+	text-shadow: black;
+  font-size: x-large;
+  color: white;
+  margin-bottom: 10px;
+  line-height: 1px;
 }
 
 .closebtn {
     margin-left: 20px;
-    color: black;
+    color: white;
     font-weight: bold;
     float: right;
     font-size: 42px;
-    line-height: 20px;
+    line-height: 1px;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -44,30 +56,22 @@ body {
 	color: rgb(255, 166, 0);
 }
 
-#first {
-	background-color: coral;
-	width: 450px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#sub-plz {
-	background-color: red;
-	width: 500px;
-	color: white;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 #upper-content {
-	text-align: center;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  padding-bottom: 30px;
 }
 
 #aboutpage {
 	text-align: left;
   list-style: none;
+  padding-top: 30px;
+  color: white;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 #about {
@@ -75,19 +79,64 @@ body {
 }
 
 .about {
-  margin-left: 20px;
+  margin-left: none;
   list-style: none;
+}
+
+.pages {
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 #footer {
 	background-color: gray;
 	color: white;
 	text-align: center;
-	text-decoration: none;
+  text-decoration: none;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .btn {
   color: white;
+  border: solid 2px white;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.more {
+  padding-left: 30px;
+  list-style: none;
+  color: white;
+}
+
+.btn1:hover {
+  background-color: rgb(231, 129, 192);
+}
+
+.btn2:hover {
+  background-color: #1382cc;
+}
+
+.btn3:hover {
+  background-color: #ff0000;
+}
+
+.button {
+  padding-top: 10px;
+  padding-left: 20px;
+  display: flex;
+  padding: 10px;
+  font-weight: bold;
+  padding: 0px 20px;
+}
+
+.button li {
+  padding: 0px 20px;
 }
 
 .logo {

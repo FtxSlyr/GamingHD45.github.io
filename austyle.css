@@ -1,26 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
     background-color: burlywood;
   }
-  
-  #container {
-      width: 1100px;
-      margin-left: auto;
-      margin-right: auto;
-      box-shadow: 0 5px 15px rgba(0,0,0,.5);
-      color: white;
-  }
 
-  #header {
-      text-align: center;
-  }
+  #container {
+    color: white;
+}
+
+
+#header {
+	background-color: none;
+  text-align: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.head {
+  float: left;
+  margin-left: none;
+  margin-right: auto;
+}
   
   .alert {
-      padding: 20px;
+      padding: 30px;
       background-color: burlywood;
       text-align: center;
-      height: 30px;
+      height: 35px;
       text-shadow: yellow;
       font-size: x-large;
+      margin-bottom: 10;
   }
   
   .closebtn {
@@ -40,30 +56,55 @@ body {
 
   .btn {
     color: white;
+    border: solid 2px white;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: 0.5s;
+    overflow: hidden;
   }
   
+  .more {
+    padding-left: 30px;
+    list-style: none;
+    color: white;
+  }
+  
+  .btn1:hover {
+    background-color: rgb(231, 129, 192);
+  }
+  
+  .btn2:hover {
+    background-color: #1382cc;
+  }
+  
+  .btn3:hover {
+    background-color: #ff0000;
+  }
+  
+  .button {
+    padding-top: 10px;
+    padding-left: 20px;
+    display: flex;
+    padding: 10px;
+    font-weight: bold;
+    padding: 0px 20px;
+  }
+  
+  .button li {
+    padding: 0px 20px;
+  }
   #navi .selected {
       font-weight: bolder;
       color: rgb(255, 166, 0);
   }
   
-  #first {
-      background-color: coral;
-      width: 450px;
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
+  .pages {
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
-  
-  #sub-plz {
-      background-color: red;
-      width: 500px;
-      color: white;
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-  }
-  
+
   #upper-content {
       text-align: center;
   }
@@ -100,12 +141,14 @@ body {
       color: #15ff00;
     }
   
-  #footer {
+    #footer {
       background-color: gray;
       color: white;
       text-align: center;
       text-decoration: none;
-  }
+      padding-bottom: 20px;
+      padding-top: 20px;
+    }
   
   .logo {
       margin-right: auto;
